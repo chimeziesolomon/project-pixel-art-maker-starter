@@ -28,11 +28,11 @@ const rows = $('#heightGrid').val();
         $(this).attr("bgcolor",color);
     });
 }
-$("input[type='submit']").click(function(e) {
+$("input[type='submit']").click(function)(e) {
     e.preventDefault();
     makeGrid();
 });
 $('#reset').click(function() {
   $('#pixelCanvas').children().remove();  
 
-});
+};
